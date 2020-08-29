@@ -3,4 +3,5 @@ exports.handler = function (event, context, callback) {
     statusCode: 200,
     body: "Hello " + event.queryStringParameters.name,
   });
+  //callback(error, success)
 };
