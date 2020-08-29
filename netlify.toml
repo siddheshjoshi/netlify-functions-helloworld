@@ -2,5 +2,5 @@
   Functions = "lambda"
   Command = "npm run build:lambda"
 
-[plugins]
-package = "@netlify/plugin-functions-core"
+[[plugins]]
+package = "plugin-functions-core"
