@@ -1,0 +1,16 @@
+{
+  "name": "netlify-functions-helloworld",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:lambda": "netlify-lambda serve src/lambda",
+    "build:lambda": "netlify-lambda build src/lambda"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "netlify-lambda": "^2.0.1"
+  }
+}
