@@ -1,7 +1,4 @@
-[build]
-  Functions = "netlify-functions/lambda"
-  
 [[headers]]
-  for = "/*"
-  [headers.values]
-    Access-Control-Allow-Origin = "*"
+   for = "/*"
+   [headers.values]
+      Access-Control-Allow-Origin = "*"
