@@ -1,3 +1,7 @@
+[build]
+  Functions = "netlify-functions/lambda"
+  Command = "npm run build:lambda"
+
 [[headers]]
    for = "/*"
    [headers.values]
